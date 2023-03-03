@@ -29,5 +29,5 @@ sam package --output-template-file packaged.yaml --s3-bucket flowlog-onetarget -
 
 # Step 5 - Deploy your application
 ```
-sam deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --stack-name aws-sam-getting-started --region eu-west-1 --profile aws-devops
+sam deploy --template-file packaged.yaml --stack-name aws-sam-getting-started --region ap-southeast-1
 ```
