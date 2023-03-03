@@ -29,6 +29,9 @@ Resources:
           Properties:
             Path: /hello
             Method: get
+      AutoPublishAlias: live 
+      DeploymentPreference:
+        Type: Canary10Percent10Minutes
 
   ApplicationResourceGroup:
     Type: AWS::ResourceGroups::Group
